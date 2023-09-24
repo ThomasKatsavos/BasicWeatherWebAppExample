@@ -22,6 +22,8 @@ Here I will give some information on how to organize this project on a virtual e
 It is required to have installed Python and pip.
 
 (To be updated)
+
+### THE WEB APP IS STILL UNDER DEVELOPMENT - NEW FILES ARE TO BE ADDED SOON!
  
 
  
