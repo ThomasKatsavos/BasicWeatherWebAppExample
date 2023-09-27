@@ -2,8 +2,8 @@
 
 ## Introduction
 This is my first attempt to build a web application from scratch, that's why I chose a simple and common concept. 
-It is supposed to work as a template for future more complex projects. The application will consist of a main-welcome page with 
-a search bar and a second one that presents the current weather data for the selected area (propably by city name).
+It is supposed to work as a template for future more complex projects. The application will consist of a web page with 
+a search bar that presents the current weather data for the selected area (propably by city name).
 (To be updated)
 
 ## Technical Characteristics
