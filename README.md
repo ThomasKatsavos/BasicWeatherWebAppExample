@@ -3,17 +3,17 @@
 ## Introduction
 This is my first attempt to build a web application from scratch, that's why I chose a simple and common concept. 
 It is supposed to work as a template for future more complex projects. The application will consist of a web page with 
-a search bar that presents the current weather data for the selected area (propably by city name).
+a search bar that presents the current weather data for a selected area (propably by city name).
 (To be updated)
 
 ## Technical Characteristics
 For the development of this web app I am going to use the Django framework (Python-Based) and the following programming and markup languages:
  - Python
- - HTML
+ - HTML(with internal CSS)
 
 in the Visual Studio Code environment.
 
-The weather APIs I'll use are from [OpenWeatherMap](https://openweathermap.org/api).
+Weather APIs by [OpenWeatherMap](https://openweathermap.org/api).
 
 (To be updated)
 
