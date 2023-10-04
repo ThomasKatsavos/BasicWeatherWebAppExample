@@ -3,8 +3,8 @@
 ## Introduction
 This is my first attempt to build a web application from scratch, that's why I chose a simple and common concept. 
 It is supposed to work as a template for future more complex projects. The application will consist of a web page with 
-a search bar that presents the current weather data for a selected area (propably by city name).
-(To be updated)
+a search bar that presents the current weather data for a selected area (using a city or village name).
+
 
 ## Technical Characteristics
 For the development of this web app I am going to use the Django framework (Python-Based) and the following programming and markup languages:
@@ -15,7 +15,6 @@ in the Visual Studio Code environment.
 
 Weather APIs by [OpenWeatherMap](https://openweathermap.org/api).
 
-(To be updated)
 
 ## How to use the web app
 Since you can run the app and opened it on your browser (locally) you will see the page with its welcoming form:
@@ -52,9 +51,8 @@ Here I will give some information on how to organize this project on a virtual e
   - Read the message to access the app!
  - Remember: To remove a virtual environment created with pipenv run : ``` pipenv --rm ```
 
-(To be updated)
 
-### THE WEB APP IS STILL UNDER DEVELOPMENT - NEW FILES ARE TO BE ADDED SOON!
+###  THIS REPOSITORY AND README FILE WILL BE UPDATED IN CASE SOME ISSUES OCCUR
  
 
  
