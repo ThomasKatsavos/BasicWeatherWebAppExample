@@ -33,8 +33,24 @@ If you type two separate words in the searchbar (e.g.: 'Hong Kong') or a name fo
 
 
 ## Instructions for running the app on your device
-Here I will give some information on how to organize this project on a virtual environment (pipenv or pyvenv) and run the app on a local server.
-It is required to have installed Python and pip.
+Here I will give some information on how to organize this project on a virtual environment (pipenv) and run the app on a local server on Windows.
+!!!  In this project I have set 'DEBUG=False' !!!
+- Create a directory, here I will call it 'testdir', where you want clone the repository : ``` mkdir testdir ```
+- Enter this directory : ``` cd testdir ```
+- Clone the repository : ``` git clone https://github.com/ThomasKatsavos/BasicWeatherWebAppExample.git ```
+- Enter the project directory : ``` cd BasicWeatherWebAppExample ```
+- Enter the WeatherWebApp file : ``` cd WeatherWebApp ```
+- Create a virtual environment and install Django in it : ``` pipenv install django ```
+- Copy the Virtualenv location
+- Open the project on Visual Studio Code(Move the "BasicWeatherWebAppExample" dir)
+- From 'View-Command Palette' select 'Select Interpreter'
+- In the bar paste the Virtualenv location and add '\Scripts\python.exe', then hit enter and create a new terminal for the v.e.
+- In the new terminal :
+  - Install "xmltodict" library : ``` pip install xmltodict ```
+  - (Skip this, but in some cases you may need to run ``` python manage.py migrate ```)
+  - Run : ``` python manage.py runserver ```
+  - Read the message to access the app!
+ - Remember: To remove a virtual environment created with pipenv run : ``` pipenv --rm ```
 
 (To be updated)
 
